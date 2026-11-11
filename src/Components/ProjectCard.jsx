@@ -2,6 +2,8 @@ import React from 'react';
 
 
 export default function ProjectCard({ project }) {
+
+
     return (
         <div className="project-card">
             <div className="card card-row" style={{ maxWidth: "540px" }}>

@@ -1,29 +1,34 @@
 {
-    "$schema": "./node_modules/json-server/schema.json",
-    "projects": [
-        {
-    "id": 1,
-    "title": "Portfolio Website",
-    "description": "A responsive personal portfolio built with React and CSS Gr`id` to showcase my work.",
-    "image": "https://placehold.co/80x80?text=P1"
-  },
-  {
-    "id": 2,
-    "title": "Weather Dashboard",
-    "description": "Displays current conditions and a 5-day forecast using a public weather API.",
-    "image": "https://placehold.co/80x80?text=P2"
-  },
-  {
-    "id": 3,
-    "title": "Task Manager",
-    "description": "A to-do app with add, edit, complete, and delete features, saved to local storage.",
-    "image": "https://placehold.co/80x80?text=P3"
-  },
-  {
-    "id": 4,
-    "title": "Recipe Finder",
-    "description": "Search recipes by ingredient and save your favorites for later.",
-    "image": "https://placehold.co/80x80?text=P4"
-  }
-    ]
+  "projects": [
+    {
+      "id": "1",
+      "title": "Portfolio Website",
+      "description": "A responsive personal portfolio built with React and CSS Gr`id` to showcase my work.",
+      "image": "https://cdn.dribbble.com/userupload/48004631/file/ff7a25181cae10208073ed7a21543e54.jpg?resize=1504x1128&vertical=center"
+    },
+    {
+      "id": "2",
+      "title": "Weather Dashboard",
+      "description": "Displays current conditions and a 5-day forecast using a public weather API.",
+      "image": "https://i.pinimg.com/736x/e7/b2/aa/e7b2aa276d090f6e857a68465af8fa0f.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Task Manager",
+      "description": "A to-do app with add, edit, complete, and delete features, saved to local storage.",
+      "image": "https://i.pinimg.com/1200x/7c/9d/f0/7c9df09a8827641051a099bfa2eeaaa8.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Recipe Finder",
+      "description": "Search recipes by ingredient and save your favorites for later.",
+      "image": "https://i.pinimg.com/736x/0d/90/4d/0d904df4cf96be89301e9d25bd549905.jpg"
+    },
+    {
+      "title": "Cooking App",
+      "description": "jbukvyju",
+      "id": "KUQbXT0pM_A"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }

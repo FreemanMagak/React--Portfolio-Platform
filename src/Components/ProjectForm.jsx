@@ -1,16 +1,31 @@
-import React from 'react'
+import { useState } from 'react'
 
-export default function ProjectForm() {
+export default function ProjectForm({ onAddProject }) {
+    const [title, setTitle] = useState('')
+    const [description, setDescription] = useState('')
+
+    const handleSubmit = (e) => {
+        e.preventDefault()
+
+        onAddProject({
+            title: title.trim(),
+            description: description.trim()
+        })
+
+        setTitle('')
+        setDescription('')
+    }
+
     return (
 
         <div className="project-form">
             <h1>Add Project </h1>
-            <form>
+            <form onSubmit={handleSubmit}>
                 <label htmlFor="projectName">Title:</label>
-                <input type="text" id="projectName" name="projectName" required />
+                <input type="text" id="projectName" name="projectName" value={title} onChange={(e) => setTitle(e.target.value)} required />
 
                 <label htmlFor="description">Description:</label>
-                <textarea id="description" name="description" required></textarea>
+                <textarea id="description" name="description" value={description} onChange={(e) => setDescription(e.target.value)} required></textarea>
 
                 <button type="submit">Add Project</button>
             </form>
