@@ -1,5 +1,6 @@
 import { useState } from 'react'
 
+// ProjectForm component for adding new projects
 export default function ProjectForm({ onAddProject }) {
     const [title, setTitle] = useState('')
     const [description, setDescription] = useState('')

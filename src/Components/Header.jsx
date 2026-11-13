@@ -1,6 +1,6 @@
 import React from 'react'
 
-
+// Header component for the application
 export default function Headers() {
     return (
 

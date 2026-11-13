@@ -2,6 +2,7 @@ import {useState} from "react";
 import ProjectCard from "./ProjectCard";
 import SearchBar from "./SearchBar";
 
+// ProjectList component to display a list of projects with search functionality
 export default function ProjectList({ projects }) {
     const [query, setQuery] = useState('')
 

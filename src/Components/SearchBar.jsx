@@ -1,5 +1,6 @@
 import React from 'react'
 
+// SearchBar component for filtering projects based on user input
 export default function SearchBar({ query, onQueryChange }) {
     return (
         <input

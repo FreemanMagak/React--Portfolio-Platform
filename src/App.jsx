@@ -5,7 +5,7 @@ import ProjectList from './Components/ProjectList'
 import './App.css'
 
 
-
+// Main App component
 export default function App() {
   const [projects, setProjects] = useState([])
 
@@ -16,6 +16,7 @@ export default function App() {
       .catch((err) => console.error('Fetch failed:', err))
   }, [])
 
+  // Function to handle adding a new project
   const handleAddProject = (newProject) => {
   fetch('http://localhost:3000/projects', {
     method: 'POST',

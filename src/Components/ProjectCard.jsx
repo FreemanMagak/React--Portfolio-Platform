@@ -3,7 +3,10 @@ import React from 'react';
 
 export default function ProjectCard({ project }) {
 
-
+//     const handleClick = () => {
+//         // Handle click event, e.g., navigate to project details page
+//         console.log(`Project clicked: ${project.title}`);
+//     };
     return (
         <div className="project-card">
             <div className="card card-row" style={{ maxWidth: "540px" }}>
