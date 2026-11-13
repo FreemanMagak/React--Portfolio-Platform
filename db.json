@@ -28,6 +28,11 @@
       "title": "Cooking App",
       "description": "jbukvyju",
       "id": "KUQbXT0pM_A"
+    },
+    {
+      "title": "Farm app",
+      "description": "isbsvsyjbxkuinisjkn",
+      "id": "wb8G_kROYJQ"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
