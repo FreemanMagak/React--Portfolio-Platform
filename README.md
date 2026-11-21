@@ -17,3 +17,8 @@ You can also try [the experimental native React Compiler support in plugin-react
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+# Instructions 
+- Open the terminal and Run `npm install` to install the necessary packages 
+- Next run `npx json-server db.json` to make sure we run db.json
+- Afterwards open a new terminal run `npm run dev` to make sure the app runs 
