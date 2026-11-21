@@ -30,7 +30,7 @@ export default function App() {
 
   return (
     <>
-      <Headers />
+      <Header />
       <ProjectForm onAddProject={handleAddProject}/>
       <ProjectList projects={projects} />
     </>
