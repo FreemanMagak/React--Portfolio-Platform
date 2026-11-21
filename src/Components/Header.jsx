@@ -1,7 +1,7 @@
 import React from 'react'
 
 // Header component for the application
-export default function Headers() {
+export default function Header() {
     return (
 
         <header className="App-header">
