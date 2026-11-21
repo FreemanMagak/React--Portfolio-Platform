@@ -20,7 +20,7 @@ export default function App() {
   const handleAddProject = (newProject) => {
   fetch('http://localhost:3000/projects', {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
+    header: { 'Content-Type': 'application/json' },
     body: JSON.stringify(newProject),
   })
     .then((res) => res.json())
